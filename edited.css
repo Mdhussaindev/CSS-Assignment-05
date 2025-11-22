@@ -147,4 +147,41 @@ ul li
         width: 25px;
         height: 25px;
     }
+    .main-footer {
+        border:1px solid red;
+        width:100%;
+        display: flex;
+        flex-flow:column;
+    }
+    .footer-col 
+    {
+        width:100%;
+        display: flex;
+        flex-flow:column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about {
+        border:1px solid red;
+        width: 450px;
+    }
+    .footer-col.about
+    {
+        width:100%;
+    }
+    .site-links
+    {
+        border:1px solid lime;
+        /* height: 150px; */
+        display: flex;
+        flex-flow:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-links a {
+        text-decoration: none;
+        color:white;
+        font-size:15px;
+    }
 }
