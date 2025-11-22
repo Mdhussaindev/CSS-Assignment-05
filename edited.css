@@ -88,10 +88,15 @@ ul li
     }
     .express-box {
         width: 100%;
-        border:1px solid lime;
+        /* border:1px solid lime; */
     }
     .express-box img
     {
         width: 100%;
+    }
+    .opening-grid
+    {
+        display: flex;
+        flex-flow:column;
     }
 }

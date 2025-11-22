@@ -753,6 +753,7 @@ background-color: #000;
 }
 
 .opening-grid {
+    /* border:1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
