@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1000px; /*code edited*/
+}
+
    body {
       background-color: #000;
       font-family: 'Poppins', sans-serif;
@@ -41,14 +45,14 @@ header {
 }
 
 /* Navigation */
-.nav-links {
+/* .nav-links {
   list-style: none;
   display: flex;
   gap: 30px;
   margin-left: 350px;
   margin-top: 20px;
   
-}
+} */
 .nav-links a {
   text-decoration: none;
   color: white;
@@ -60,27 +64,27 @@ header {
 }
 
 /* Buttons */
-.buttons {
+/* .buttons {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-right: 30px;
-}
+} */
 
 .btn-outline {
-  border: 1px solid white;
+  /* border: 1px solid white;
   color: white;
   text-decoration: none;
   padding: 14px 13px;
   border-radius: 25px;
   font-weight: normal;
-  transition: background 0.3s;
+  transition: background 0.3s; */
 }
 .btn-outline:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.btn-red {
+/* .btn-red {
   background-color: #ff0000;
   color: white;
   text-decoration: none;
@@ -88,7 +92,7 @@ header {
   border-radius: 25px;
   font-weight: 600;
   transition: background 0.3s;
-}
+} */
 .btn-red:hover {
   background-color: #cc0000;
 }
@@ -512,23 +516,28 @@ header {
 
 /* Main Row */
 .express-row {
+  /* border:1px solid red; */
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
     flex-wrap: wrap;
+
 }
 
 /* Each Box */
 .express-box {
-    width: 400px;
+  /* border:1px solid lime; */
+    width: 300px;
+    height:420px;
     text-align: center;
+    margin-bottom:10px;
  
 }
 
 /* Images */
 .express-box img {
     width: 100%;
-    height: 250px;
+    height: 180px;
     object-fit: cover;
 
 }
@@ -539,13 +548,13 @@ header {
     letter-spacing: 6px;
     font-weight: bold;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* Title */
 .express-box h3 {
     font-size: 24px;
-    margin: 10px 0 15px;
+    margin: 2px ;
 }
 
 .express-box h3 span {
@@ -555,51 +564,51 @@ header {
 
 /* Text */
 .express-box p {
-    margin: 20px 0;
+    margin: 8px 0;
     font-size: 15px;
 }
 #b1 {
- margin-top: 32px;
- margin-bottom: 30px;
+ margin-top: 15px;
+ /* margin-bottom: 30px; */
 }
 #b2{
- margin-top: 20px;
- margin-bottom: 25px;
+ margin-top: 15px;
+ /* margin-bottom: 25px; */
 }
 #b3{
-  margin-top: 32px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  /* margin-bottom: 30px; */
 
 }
 #b4{
-margin-top: 35px;
-margin-bottom: 30px;
+margin-top: 15px;
+/* margin-bottom: 30px; */
 }
 #b5{
-margin-top: 20px;
-margin-bottom: 28px;
+margin-top: 15px;
+/* margin-bottom: 28px; */
 }
 #b6{
-margin-top: 37px;
-margin-bottom: 30px;
+margin-top: 15px;
+/* margin-bottom: 30px; */
 }
 #b7{
-margin-top:30px ;
-margin-bottom:30px ;
+margin-top:15px ;
+/* margin-bottom:30px ; */
 }
 #b8{
- margin-top:30px ;
- margin-bottom:30px ;
+ margin-top:15px ;
+ /* margin-bottom:30px ; */
 }
 #b9{
- margin-top:30px ;
- margin-bottom:30px ;
+ margin-top:15px ;
+ /* margin-bottom:30px ; */
 }
 #b10 {
-  margin: 30px 0;
+  margin: 15px;
 }
 #b11 {
- margin-bottom: 32px;
+ margin-bottom: 15px;
 }
 .express-btn {
     display: inline-flex;
@@ -607,21 +616,25 @@ margin-bottom:30px ;
     gap: 12px;
     background: #000;
     color: #fff;
-    padding: 8px 18px;
+    padding: 8px 15px;
     border: 1px solid #444;
     border-radius: 40px;
     font-size: 14px;
     text-decoration: none;
-    margin-bottom: 32px;
+    margin-top: 20px;
     transition: 0.3s;
 }
 
 .express-btn .icon {
     background: #fff;
     color: red;
-    padding: 6px 8px;
+    padding: 4px;
     border-radius: 50%;
     font-weight: bold;
+    /* border:1px solid lime; */
+    width:25px;
+    height: 25px;
+    text-align:center;
 }
 
 .express-btn:hover {
@@ -1003,3 +1016,4 @@ background-color: #000;
     margin-right: 0;
   }
 }
+/* edited by shahzaib*/
