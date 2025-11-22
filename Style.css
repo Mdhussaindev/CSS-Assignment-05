@@ -641,14 +641,38 @@ margin-top:15px ;
     border-color: #fff;
   
 }
-.village-section {
+/* .village-section {
     width: 100%;
     padding: 60px 120px;
     background: #0f0f0f;
     color: white;
     text-align: center;
-}
+} */
 
+.village-content
+{
+  display: flex;
+ 
+}
+.village-left
+{
+ width: 50%;
+}
+.village-right
+{
+width: 50%;
+display: flex;
+flex-flow:column;
+justify-content: center;
+align-items: center;
+ text-align:center;
+}
+.village-left img
+{
+  width:100%;
+  height: 100%;
+  object-fit:cover;
+}
 /* TOP HEADING */
 .village-top-heading .subheading {
     color: white;
@@ -664,7 +688,7 @@ margin-top:15px ;
 }
 
 /* TWO COLUMNS */
-.village-content {
+/* .village-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -675,7 +699,7 @@ margin-top:15px ;
     width: 550px;
     height: auto;
     border-radius: 6px;
-}
+} */
 
 .city-name {
     color: #c00;
