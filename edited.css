@@ -148,7 +148,7 @@ ul li
         height: 25px;
     }
     .main-footer {
-        border:1px solid red;
+        /* border:1px solid red; */
         width:100%;
         display: flex;
         flex-flow:column;
@@ -163,7 +163,7 @@ ul li
     }
     
     .about {
-        border:1px solid red;
+        /* border:1px solid red; */
         width: 450px;
     }
     .footer-col.about
@@ -172,7 +172,7 @@ ul li
     }
     .site-links
     {
-        border:1px solid lime;
+        /* border:1px solid lime; */
         /* height: 150px; */
         display: flex;
         flex-flow:column;
